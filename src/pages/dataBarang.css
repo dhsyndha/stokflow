@@ -1,0 +1,269 @@
+.data-page{
+  animation:pageIn .45s cubic-bezier(.22,1,.36,1);
+}
+
+.data-heading{
+  margin-bottom:20px;
+  display:flex;
+  align-items:flex-start;
+  gap:15px;
+}
+
+.data-heading > div > span{
+  color:#8175b5;
+  font-size:8px;
+  font-weight:800;
+  letter-spacing:1.7px;
+}
+
+.data-heading h2{
+  margin:7px 0 5px;
+  color:#fff;
+  font-size:30px;
+  font-weight:800;
+  letter-spacing:-1.2px;
+}
+
+.data-heading p{
+  margin:0;
+  color:#737a9e;
+  font-size:10px;
+}
+
+.back-data{
+  padding:0;
+  margin-top:34px;
+  border:0;
+  background:transparent;
+  color:#a998e8;
+  font-size:24px;
+  cursor:pointer;
+  transition:.2s ease;
+}
+
+.back-data:hover{
+  color:#fff;
+  transform:translateX(-4px);
+}
+
+.data-tools{
+  margin-bottom:13px;
+  display:flex;
+  gap:9px;
+}
+
+.data-search{
+  height:48px;
+  flex:1;
+  padding:0 14px;
+  display:flex;
+  align-items:center;
+  gap:9px;
+  border:1px solid rgba(125,108,255,.13);
+  border-radius:13px;
+  background:#0d1132;
+  color:#72799d;
+}
+
+.data-search:focus-within{
+  border-color:rgba(139,109,255,.4);
+  box-shadow:0 0 0 3px rgba(119,77,238,.07);
+}
+
+.data-search input{
+  width:100%;
+  border:0;
+  outline:0;
+  background:transparent;
+  color:#fff;
+  font-family:inherit;
+  font-size:10px;
+}
+
+.data-search input::placeholder{
+  color:#5e6587;
+}
+
+.data-tools select{
+  width:180px;
+  height:48px;
+  padding:0 12px;
+  border:1px solid rgba(125,108,255,.13);
+  border-radius:13px;
+  outline:0;
+  background:#0d1132;
+  color:#9298b7;
+  font-family:inherit;
+  font-size:9px;
+}
+
+.data-list{
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,.06);
+  border-radius:19px;
+  background:#090d28;
+}
+
+.data-item{
+  min-height:105px;
+  padding:17px 20px;
+  display:grid;
+  grid-template-columns:55px 1fr 100px 120px 105px;
+  align-items:center;
+  gap:20px;
+  border-bottom:1px solid rgba(255,255,255,.055);
+  transition:.25s ease;
+}
+
+.data-item:last-child{
+  border-bottom:0;
+}
+
+.data-item:hover{
+  background:linear-gradient(90deg,rgba(109,67,232,.07),transparent);
+}
+
+.data-image{
+  width:55px;
+  height:55px;
+  display:grid;
+  place-items:center;
+  border:1px solid rgba(255,255,255,.07);
+  border-radius:16px;
+  background:#171c42;
+  font-size:22px;
+  transition:.25s ease;
+}
+
+.data-item:hover .data-image{
+  transform:scale(1.06);
+}
+
+.food-bg{
+  background:rgba(139,91,55,.18);
+}
+
+.water-bg{
+  background:rgba(53,104,220,.17);
+}
+
+.tea-bg{
+  background:rgba(67,144,111,.16);
+}
+
+.rice-bg{
+  background:rgba(185,148,76,.14);
+}
+
+.data-name strong{
+  display:block;
+  color:#f1f1f8;
+  font-size:12px;
+  font-weight:700;
+}
+
+.data-name span{
+  display:block;
+  margin-top:5px;
+  color:#687092;
+  font-size:8px;
+}
+
+.data-stock small,
+.data-price small{
+  display:block;
+  color:#626a8c;
+  font-size:7px;
+}
+
+.data-stock strong{
+  display:block;
+  margin-top:5px;
+  font-size:12px;
+}
+
+.data-price strong{
+  display:block;
+  margin-top:5px;
+  color:#e5e6ef;
+  font-size:10px;
+}
+
+.data-safe{
+  color:#43dfa1;
+}
+
+.data-danger{
+  color:#ff637f;
+}
+
+.data-status{
+  width:max-content;
+  padding:7px 9px;
+  border-radius:8px;
+  font-size:7px;
+  font-weight:700;
+}
+
+.status-safe{
+  background:rgba(45,214,151,.08);
+  color:#43dfa1;
+}
+
+.status-danger{
+  background:rgba(255,78,112,.08);
+  color:#ff637f;
+}
+
+.data-empty{
+  min-height:250px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:7px;
+}
+
+.data-empty div{
+  width:46px;
+  height:46px;
+  display:grid;
+  place-items:center;
+  border-radius:14px;
+  background:#171c42;
+  color:#9580ef;
+  font-size:20px;
+}
+
+.data-empty strong{
+  color:#dfe1ee;
+  font-size:10px;
+}
+
+.data-empty span{
+  color:#626a8b;
+  font-size:8px;
+}
+
+@media(max-width:700px){
+  .data-heading h2{
+    font-size:26px;
+  }
+
+  .data-tools{
+    display:grid;
+    grid-template-columns:1fr;
+  }
+
+  .data-tools select{
+    width:100%;
+  }
+
+  .data-list{
+    overflow-x:auto;
+  }
+
+  .data-item{
+    min-width:620px;
+  }
+}

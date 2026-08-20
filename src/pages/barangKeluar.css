@@ -1,0 +1,340 @@
+.keluar-page {
+  animation: pageIn .4s ease;
+}
+
+.keluar-heading{
+  display:flex;
+  align-items:flex-start;
+  gap:9px;
+  margin-bottom:20px;
+}
+
+.back-keluar{
+  margin:1px 0 0;
+  padding:0;
+  width:24px;
+  height:20px;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  border:0;
+  background:transparent;
+  color:#a998e8;
+  font-size:22px;
+  line-height:20px;
+  cursor:pointer;
+  flex-shrink:0;
+}
+
+.back-keluar:hover{
+  color:#fff;
+  transform:translateX(-3px);
+}
+
+.keluar-heading h2 {
+  margin: 7px 0 5px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.keluar-heading p {
+  margin: 0;
+  color: #737a9e;
+  font-size: 10px;
+}
+
+.keluar-summary {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+  margin-bottom: 15px;
+}
+
+.keluar-card {
+  min-height: 120px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  border: 1px solid rgba(130,108,255,.12);
+  border-radius: 18px;
+
+  background:
+    radial-gradient(
+      circle at 90% 15%,
+      rgba(118,65,244,.2),
+      transparent 30%
+    ),
+    linear-gradient(
+      120deg,
+      #171b4d,
+      #0d102e
+    );
+}
+
+.keluar-card span {
+  color: #777da1;
+  font-size: 8px;
+  font-weight: 600;
+}
+
+.keluar-card strong {
+  margin-top: 6px;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.keluar-card small {
+  margin-top: 5px;
+  color: #626989;
+  font-size: 7px;
+}
+
+.keluar-tools {
+  display: flex;
+  gap: 9px;
+  margin-bottom: 24px;
+}
+
+.keluar-search {
+  height: 46px;
+  flex: 1;
+  padding: 0 14px;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+
+  border: 1px solid rgba(125,108,255,.13);
+  border-radius: 13px;
+  background: #0d1132;
+}
+
+.keluar-search input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: #fff;
+  font-family: inherit;
+  font-size: 10px;
+}
+
+.keluar-search input::placeholder {
+  color: #5e6587;
+}
+
+.keluar-tools select {
+  width: 180px;
+  height: 46px;
+  padding: 0 12px;
+
+  border: 1px solid rgba(125,108,255,.13);
+  border-radius: 13px;
+  outline: 0;
+
+  background: #0d1132;
+  color: #9298b7;
+  font-family: inherit;
+  font-size: 9px;
+}
+
+.riwayat-keluar-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-bottom: 11px;
+}
+
+.riwayat-keluar-heading span {
+  color: #8175b5;
+  font-size: 7px;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.riwayat-keluar-heading h3 {
+  margin: 5px 0 0;
+  color: #eeeef7;
+  font-size: 17px;
+}
+
+.riwayat-keluar-heading small {
+  color: #626989;
+  font-size: 8px;
+}
+
+.keluar-list {
+  overflow: hidden;
+  border: 1px solid rgba(255,255,255,.06);
+  border-radius: 18px;
+  background: #090d28;
+}
+
+.transaksi-keluar {
+  min-height: 82px;
+  padding: 13px 17px;
+
+  display: grid;
+  grid-template-columns: 45px 1.5fr 120px 145px 100px;
+  align-items: center;
+  gap: 15px;
+
+  border-bottom: 1px solid rgba(255,255,255,.045);
+}
+
+.transaksi-keluar:last-child {
+  border-bottom: 0;
+}
+
+.transaksi-keluar:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(109,67,232,.07),
+    transparent
+  );
+}
+
+.keluar-image {
+  width: 45px;
+  height: 45px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 13px;
+  font-size: 18px;
+}
+
+.food-bg {
+  background: rgba(139,91,55,.18);
+}
+
+.water-bg {
+  background: rgba(53,104,220,.17);
+}
+
+.tea-bg {
+  background: rgba(67,144,111,.16);
+}
+
+.rice-bg {
+  background: rgba(185,148,76,.14);
+}
+
+.keluar-name strong {
+  display: block;
+  color: #ededf8;
+  font-size: 10px;
+}
+
+.keluar-name span {
+  display: block;
+  margin-top: 4px;
+  color: #626a8e;
+  font-size: 7px;
+}
+
+.keluar-jumlah small,
+.keluar-date small {
+  display: block;
+  color: #5e6688;
+  font-size: 7px;
+}
+
+.keluar-jumlah strong {
+  display: block;
+  margin-top: 4px;
+  color: #ff637f;
+  font-size: 10px;
+}
+
+.keluar-date strong {
+  display: block;
+  margin-top: 4px;
+  color: #dfe0eb;
+  font-size: 8px;
+}
+
+.keluar-date span {
+  display: block;
+  margin-top: 3px;
+  color: #626989;
+  font-size: 7px;
+}
+
+.keluar-status {
+  width: max-content;
+  padding: 7px 9px;
+  border-radius: 8px;
+
+  background: rgba(255,78,112,.08);
+  color: #ff637f;
+
+  font-size: 7px;
+  font-weight: 700;
+}
+
+.keluar-empty {
+  min-height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+}
+
+.keluar-empty strong {
+  color: #dfe1ee;
+  font-size: 10px;
+}
+
+.keluar-empty span {
+  color: #626a8b;
+  font-size: 8px;
+}
+
+@media (max-width: 700px) {
+
+  .keluar-summary {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+  }
+
+  .keluar-card {
+    min-height: 105px;
+    padding: 14px;
+  }
+
+  .keluar-card strong {
+    font-size: 22px;
+  }
+
+  .keluar-card span {
+    font-size: 7px;
+  }
+
+  .keluar-card small {
+    font-size: 6px;
+  }
+
+  .keluar-tools {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .keluar-tools select {
+    width: 100%;
+  }
+
+  .keluar-list {
+    overflow-x: auto;
+  }
+
+  .transaksi-keluar {
+    min-width: 650px;
+  }
+}
