@@ -20,7 +20,6 @@
   font-size: 9px;
 }
 
-/* PROFILE */
 
 .akun-profile {
   min-height: 110px;
@@ -109,7 +108,6 @@
   color: #fff;
 }
 
-/* SECTION */
 
 .akun-block {
   margin-top: 15px;
@@ -131,7 +129,6 @@
   background: #090d28;
 }
 
-/* ROW */
 
 .akun-row {
   min-height: 58px;
@@ -206,7 +203,6 @@
   font-size: 7px;
 }
 
-/* LOGOUT */
 
 .logout-akun {
   width: 100%;
@@ -253,9 +249,6 @@
   font-size: 6px;
 }
 
-/* =========================
-   MODAL
-========================= */
 
 .akun-modal-overlay {
   position: fixed;
@@ -316,7 +309,6 @@
   cursor: pointer;
 }
 
-/* HAPUS AKUN */
 
 .pengaturan-item {
   padding: 12px;
@@ -360,7 +352,6 @@
   cursor: pointer;
 }
 
-/* KONFIRMASI */
 
 .akun-confirm {
   text-align: center;
@@ -420,7 +411,6 @@
   color: #fff;
 }
 
-/* TENTANG */
 
 .tentang-logo {
   padding: 11px;
@@ -501,7 +491,6 @@
   font-size: 6px;
 }
 
-/* TOAST */
 
 .akun-toast {
   position: fixed;
@@ -556,7 +545,6 @@
   cursor: pointer;
 }
 
-/* LOGOUT MODAL */
 
 .logout-modal-overlay {
   position: fixed;
@@ -634,7 +622,6 @@
   color: #fff;
 }
 
-/* ANIMATION */
 
 @keyframes modalUp {
   from {
@@ -666,7 +653,6 @@
   transition: .3s ease;
 }
 
-/* MOBILE */
 
 @media(max-width:600px) {
 

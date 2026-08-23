@@ -48,9 +48,6 @@ button:focus-visible {
   outline-offset:3px;
 }
 
-/* =========================
-   DASAR
-========================= */
 
 .app {
   min-height:100vh;
@@ -67,9 +64,6 @@ button:focus-visible {
   padding-top:30px;
 }
 
-/* =========================
-   HEADER
-========================= */
 
 .top {
   height:76px;
@@ -166,9 +160,6 @@ button:focus-visible {
   font-weight:800;
 }
 
-/* =========================
-   WELCOME
-========================= */
 
 .welcome {
   min-height:225px;
@@ -258,9 +249,6 @@ button:focus-visible {
   box-shadow:0 0 90px rgba(104,64,234,.35);
 }
 
-/* =========================
-   STATISTIK
-========================= */
 
 .overview {
   display:grid;
@@ -352,9 +340,6 @@ button:focus-visible {
   font-weight:500;
 }
 
-/* =========================
-   SECTION
-========================= */
 
 .section-title {
   margin:29px 0 11px;
@@ -382,9 +367,6 @@ button:focus-visible {
   font-weight:700;
 }
 
-/* =========================
-   PRODUK
-========================= */
 
 .products {
   overflow:hidden;
@@ -470,9 +452,6 @@ button:focus-visible {
   text-align:right;
 }
 
-/* =========================
-   STATUS
-========================= */
 
 .stock-summary {
   margin-top:13px;
@@ -729,9 +708,6 @@ button:focus-visible {
   }
 }
 
-/* =========================
-   BOTTOM NAV
-========================= */
 
 .bottom-nav {
   width:min(390px,calc(100% - 28px));
@@ -790,9 +766,6 @@ button:focus-visible {
   box-shadow:0 6px 20px rgba(99,57,226,.16);
 }
 
-/* =========================
-   TABLET
-========================= */
 
 @media (max-width:900px) {
   .content {
@@ -806,9 +779,6 @@ button:focus-visible {
   }
 }
 
-/* =========================
-   HP
-========================= */
 
 @media (max-width:600px) {
   .app {
@@ -1000,7 +970,7 @@ button:focus-visible {
     font-size:19px;
   }
 }
-/* TYPOGRAPHY */
+
 .brand h1 {
   font-size: 18px;
   font-weight: 800;
@@ -1140,9 +1110,7 @@ button:focus-visible {
     font-size: 7px;
   }
 }
-/* =========================
-   TRANSISI & ANIMASI
-========================= */
+
 
 * {
   transition:
@@ -1154,7 +1122,7 @@ button:focus-visible {
     opacity .25s ease;
 }
 
-/* halaman */
+
 .content {
   animation: pageIn .55s cubic-bezier(.22,1,.36,1);
 }
@@ -1170,7 +1138,7 @@ button:focus-visible {
   }
 }
 
-/* welcome */
+
 .welcome {
   animation: welcomeIn .7s cubic-bezier(.22,1,.36,1);
 }
@@ -1199,7 +1167,7 @@ button:focus-visible {
   }
 }
 
-/* statistik */
+
 .overview-card {
   animation: cardIn .55s cubic-bezier(.22,1,.36,1) both;
 }
@@ -1244,7 +1212,7 @@ button:focus-visible {
   background:rgba(130,96,255,.14);
 }
 
-/* produk */
+
 .product {
   transition:
     background .25s ease,
@@ -1272,7 +1240,7 @@ button:focus-visible {
   color:#fff;
 }
 
-/* tombol lihat semua */
+
 .section-title button {
   transition:.2s ease;
 }
@@ -1283,7 +1251,7 @@ button:focus-visible {
   background:rgba(116,76,240,.1);
 }
 
-/* status */
+
 .status-row {
   transition:
     transform .25s ease,
@@ -1299,7 +1267,7 @@ button:focus-visible {
   transform:scale(1.08);
 }
 
-/* navbar bawah */
+
 .bottom-nav {
   animation: navIn .6s cubic-bezier(.22,1,.36,1);
 }
@@ -1360,7 +1328,7 @@ button:focus-visible {
   }
 }
 
-/* header */
+
 .brand-mark {
   transition:
     transform .25s ease,
@@ -1374,7 +1342,7 @@ button:focus-visible {
     0 0 20px rgba(125,79,244,.12);
 }
 
-/* icon tombol */
+
 .icon-btn,
 .avatar {
   transition:.25s ease;
@@ -1388,7 +1356,7 @@ button:focus-visible {
   transform:scale(1.05);
 }
 
-/* ripple sederhana */
+
 .overview-card:active,
 .icon-btn:active,
 .nav-item:active,
@@ -1396,7 +1364,7 @@ button:focus-visible {
   transform:scale(.97);
 }
 
-/* mobile */
+
 @media (max-width:600px) {
   .overview-card:hover {
     transform:none;
@@ -1415,7 +1383,7 @@ button:focus-visible {
   }
 }
 
-/* kurangi animasi kalau device meminta */
+
 @media (prefers-reduced-motion:reduce) {
   *,
   *::before,

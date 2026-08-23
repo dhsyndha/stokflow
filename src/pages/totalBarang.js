@@ -164,7 +164,7 @@ function renderBarang(data){
         <small>Harga Jual</small>
         <strong>${item.jual}</strong>
       </div>
-      
+
 
       <span class="stock-badge ${item.stok <= 10 ? "danger-badge" : "safe-badge"}">
         ${item.stok <= 10 ? "Stok Menipis" : "Stok Aman"}

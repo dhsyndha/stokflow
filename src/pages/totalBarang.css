@@ -53,7 +53,7 @@
   grid-template-columns:1.35fr 1fr 1fr 1fr;
   gap:10px;
   margin-bottom:14px;
-  
+
 }
 
 .summary-main{
@@ -535,7 +535,7 @@
 
 @media(max-width:500px){
 
-  /* TETAP 2 x 2 DI HP */
+
   .barang-summary{
     display:grid;
     grid-template-columns:1fr 1fr;
@@ -549,7 +549,7 @@
     border-radius:17px;
   }
 
-  /* Total Barang: icon di samping */
+
   .summary-main{
     display:flex;
     align-items:center;

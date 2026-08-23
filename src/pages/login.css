@@ -253,7 +253,6 @@
   font-size: 7px;
 }
 
-/* TOAST */
 
 .login-toast {
   position: fixed;
@@ -325,7 +324,6 @@
   }
 }
 
-/* MOBILE */
 
 @media (max-width: 600px) {
   .login-page {
